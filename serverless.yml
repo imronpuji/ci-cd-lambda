@@ -1,5 +1,4 @@
 org: imronpuji
-app: lambda
 service: lambda
 
 frameworkVersion: '3'
