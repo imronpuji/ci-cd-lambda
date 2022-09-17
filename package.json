@@ -1,0 +1,20 @@
+{
+  "name": "lambda",
+  "version": "1.0.1",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imronpuji/ci-cd-lambda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imronpuji/ci-cd-lambda/issues"
+  },
+  "homepage": "https://github.com/imronpuji/ci-cd-lambda#readme"
+}
