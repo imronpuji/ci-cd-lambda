@@ -1,13 +1,13 @@
 org: imronpuji
 app: lambda
 service: lambda
-
 frameworkVersion: '3'
 
 provider:
   name: aws
   runtime: nodejs14.x
   region: ap-southeast-1
+  stage: ${opt:stage, 'dev'}
 
 functions:
   hello:
