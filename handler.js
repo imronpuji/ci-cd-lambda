@@ -6,6 +6,7 @@ module.exports.hello = async (event) => {
     body: JSON.stringify(
       {
         message: 'Go Serverless v3.0! Your function executed successfully!',
+        title:"learn more about git flow and development"
       },
       null,
       2
