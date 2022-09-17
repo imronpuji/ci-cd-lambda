@@ -7,7 +7,7 @@ provider:
   name: aws
   runtime: nodejs14.x
   region: ap-southeast-1
-  stage: prod
+  stage: ${opt:stage, 'dev'}
 
 functions:
   hello:
